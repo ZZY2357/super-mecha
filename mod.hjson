@@ -1,0 +1,8 @@
+name: "super-mecha"
+displayName: "Super Mecha"
+author: zzy2357@outlook.com
+description: "A Super Mecha. 一个超强的机甲"
+version: "1.0"
+minGameVersion: "126"
+dependencies: [ ]
+hidden: false

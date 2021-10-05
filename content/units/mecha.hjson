@@ -1,0 +1,43 @@
+type: flying
+
+health: 2000
+hitSize: 36
+armor: 2
+flying: true
+speed: 5
+buildSpeed: 5
+mineSpeed: 5
+accel: 1
+canHeal: true
+weapons: [
+    {
+        name: Super Mecha Gun
+        top: false
+        x: 0
+        y: 0
+        reload: 30
+        shots: 25
+        spacing: 14.4
+        lifetime: 300
+        bullet: {
+            type: BasicBulletType
+            damage: 300
+            speed: 10
+            width: 20
+            height: 30
+            splashDamage: 30
+        }
+    }
+]
+abilities: [
+    {
+        type: RepairFieldAbility
+        amount: 50
+        reload: 45
+    }
+    {
+        type: UnitSpawnAbility
+        unit: flare
+        spawnTime: 60
+    }
+]
